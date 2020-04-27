@@ -15,6 +15,7 @@ article {
 }
 
 header {
+    margin-bottom: 1rem;
     background-color: #faa613;
     color: #550527;
     text-align: center;
@@ -57,6 +58,7 @@ nav li:last-child:hover {
 }
 
 footer {
+    margin-top: 1rem;
     background-color: #faa613;
     color: #550527;
     text-align: center;
