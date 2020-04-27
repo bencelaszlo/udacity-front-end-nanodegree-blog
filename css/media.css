@@ -2,4 +2,8 @@
     body {
         font-size: 1.5rem;
     }
+    nav li {
+        min-height: 150px;
+        line-height: 150px;
+    }
 }
