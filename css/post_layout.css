@@ -59,10 +59,12 @@ p {
         font-size: 3.5rem;
         line-height: 4.75rem;
     }
+    
     .image {
         width: 60vw;
         height: 40vw;
     }
+
     #main {
         width: 100vw;
     }
