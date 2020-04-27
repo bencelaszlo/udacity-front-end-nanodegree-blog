@@ -53,10 +53,9 @@ p {
     background-image: url('../img/box5.jpg');
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .content {
         width: 90vw;
-        font-size: 2rem;
     }
     .image {
         width: 60vw;
