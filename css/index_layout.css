@@ -1,0 +1,40 @@
+#main {
+    display: grid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+}
+
+#blog-image {
+    background-image: url('../img/box.jpg');
+    background-size: scratch;
+}
+
+#blog-description {
+    color: white;
+    text-overflow: ellipsis;
+}
+
+#blog-read {
+    display: block;
+    background-color: #a10702;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+
+#blog-read:hover {
+    background-color: #f44708;
+}
+
+@media screen and (max-width: 1000px) {
+    #blog-read {
+        font-size: 2rem;
+    }
+}
