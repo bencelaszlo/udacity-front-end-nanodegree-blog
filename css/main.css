@@ -1,3 +1,7 @@
+@import "./media.css";
+@import "./typography.css";
+@import "./title_typography.css";
+
 body {
     display: grid;
     grid-template-columns: 100vw;
@@ -62,26 +66,4 @@ footer {
     background-color: #faa613;
     color: #550527;
     text-align: center;
-}
-
-h1, h2, h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1, h2 {
-    text-decoration: underline;
-}
-
-blockquote {
-    padding: 3rem 3rem 3rem 3rem;
-    background-color: #fdca71;
-    color: #f44708;
-    font-style: italic;
-    font-style: smaller;
-}
-
-b {
-    color: #fdca71;
-    font-style: initial;
-    font-family: Impact, Charcoal, sans-serif;
 }
